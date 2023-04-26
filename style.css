@@ -1,0 +1,57 @@
+
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+header,
+footer {
+  background-color: #1F2937;
+  
+}
+
+h1,
+h2 {
+  font-weight: 800;
+}
+
+h1 {
+  font-size: 48px;
+  
+}
+
+
+button {
+  background-color: #3882F6;
+  border: 0;
+  border-radius: 5px;
+}
+
+h2,
+.texto {
+  color: #1F2937;
+  font-size: 36px;
+}
+
+nav,
+.container1 p,
+button {
+  font-size: 18px;
+  color: #E5E7EB;
+}
+
+
+.relato {
+  background-color: #E5E7EB;
+}
+
+.logo {
+  font-size: 24px;
+  color: #F9FAF8;
+  font-weight: bold;
+}
+
+.texto {
+  font-weight: 300;
+  font-style: italic;
+}
