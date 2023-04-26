@@ -27,6 +27,10 @@ button {
   border-radius: 5px;
 }
 
+ul {
+  list-style-type: none;
+}
+
 h2,
 .texto {
   color: #1F2937;
