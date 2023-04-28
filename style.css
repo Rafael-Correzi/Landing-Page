@@ -108,21 +108,12 @@ button,
   overflow: auto;
 }
 
-
-.relato {
-  background-color: #E5E7EB;
-}
-
 .logo {
   margin: 24px 0;
   font-size: 24px;
   font-weight: bold;
 }
 
-.texto {
-  font-weight: 300;
-  font-style: italic;
-}
 
 .header-image {
   height: 333px;
@@ -158,3 +149,22 @@ button,
   text-align: center;
   color: #56575c;
 }
+
+.relato {
+  background-color: #E5E7EB;
+  padding: 100px 450px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.texto {
+  font-weight: 300;
+  font-style: italic;
+}
+
+.citacao {
+  align-self: flex-end;
+}
+
+
