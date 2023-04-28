@@ -1,5 +1,8 @@
 
 body {
+  height: 100vh;
+  width: 100vw;
+  max-width: 100%;
   margin: 0;
   font-family: 'Roboto', sans-serif;
 }
@@ -44,6 +47,7 @@ button {
 
 
 ul {
+  margin: 27px 0;
   list-style-type: none;
   display: flex;
   gap: 18px;
@@ -70,8 +74,9 @@ h2,
 }
 
 nav,
-.container1 p,
-button {
+button,
+.container1 p
+{
   font-size: 18px;
   color: #E5E7EB;
 }
@@ -109,6 +114,7 @@ button {
 }
 
 .logo {
+  margin: 24px 0;
   font-size: 24px;
   font-weight: bold;
 }
@@ -121,4 +127,33 @@ button {
 .header-image {
   height: 333px;
   width: auto;
+  border: solid #2f4b6e 4px;
+}
+
+.container2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.container3 {
+  display: flex;
+  justify-content: center;
+  gap: 60px;
+  
+}
+
+.info img {
+  height: auto;
+  width: 200px;
+  margin-bottom: 8px;
+  border: solid #3882F6 4px;
+  border-radius: 18px;
+
+}
+
+.descricao {
+  max-width: 200px;
+  text-align: center;
+  color: #56575c;
 }
