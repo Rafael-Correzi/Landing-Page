@@ -44,7 +44,7 @@ h1 {
 
 button {
   border: 0;
-  border-radius: 5px;
+  border-radius: 8px;
   width: 150px;
   height: 40px;
 }
@@ -177,8 +177,29 @@ button,
 }
 
 .cadastro {
-  margin: 150px 300px;
+  margin: 150px 350px;
+  padding: 40px 70px;
+  border-radius: 10px;
   display: flex;
+  gap: 100px;
+  justify-content: space-around;
+  align-items: center;
+  
+
+}
+
+.cadastro button {
+  border: solid white 3px;
+}
+
+.cadastro2 h3 {
+  color: white;
+  font-size: 24px;
+  line-height: 0;
+}
+
+.cadastro2 p {
+  color: white;
 }
 
 
