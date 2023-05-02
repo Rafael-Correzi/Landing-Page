@@ -18,13 +18,18 @@ header {
   flex-direction: column;
   justify-content: space-around;
   align-items: flex-start;
-  padding: 0 300px 160px 300px;
+  padding: 0 225px 160px 225px;
   gap: 120px;
 }
 
 h1,
 h2 {
   font-weight: 800;
+}
+
+button,
+.cadastro {
+  background-color: #3882F6;
 }
 
 h1 {
@@ -37,7 +42,6 @@ h1 {
 
 
 button {
-  background-color: #3882F6;
   border: 0;
   border-radius: 5px;
   width: 150px;
@@ -84,6 +88,7 @@ button,
 .container1 {
   display: flex;
   justify-content: space-between;
+  width: 100%;
   gap: 50px;
 }
 
@@ -165,6 +170,11 @@ button,
 
 .citacao {
   align-self: flex-end;
+}
+
+.cadastro {
+  margin: 150px 300px;
+  display: flex;
 }
 
 
